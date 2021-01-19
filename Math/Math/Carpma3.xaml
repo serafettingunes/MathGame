@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Math.Carpma3">
+    <ContentPage.Content>
+        <StackLayout x:Name="stak" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="#049CFF">
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <Label Margin="0,40,0,0" x:Name="sayac" Text="" TextColor="Black" FontSize="35" />
+                <Label Margin="0,40,0,0" Padding="5" x:Name="lblPuan" Text="" FontSize="40" TextColor="White" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal">
+                <Label Margin="0,90,0,0" x:Name="sayi1" Text=""  FontSize="50"  TextColor="Black"/>
+                <Label Margin="0,90,0,0" x:Name="lblCarpi" Text="*" FontSize="50"   TextColor="Black" />
+
+                <Label Margin="0,90,0,0" x:Name="sayi2" Text=""  FontSize="50" TextColor="Black"/>
+                <Label Margin="0,90,0,0" Text="=" FontSize="50"   TextColor="Black"/>
+                <Label  Margin="0,90,0,0" x:Name="lblSonuc"   FontSize="50" TextColor="Black"/>
+
+
+            </StackLayout>
+
+            <StackLayout  VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal"  >
+                    <Button Margin="0,40,0,0" Text="" x:Name="btn1" Clicked="btn1_Clicked"  BackgroundColor="Orange" FontSize="23" />
+                    <Button Margin="0,40,0,0" Text="" x:Name="btn2" Clicked="btn2_Clicked"  BackgroundColor="Orange"  FontSize="23"/>
+                    <Button  Margin="0,40,0,0" Text="" x:Name="btn3" Clicked="btn3_Clicked"  BackgroundColor="Orange" FontSize="23"/>
+                    <Button Margin="0,40,0,0" Text="" x:Name="btn4" Clicked="btn4_Clicked"  BackgroundColor="Orange"  FontSize="23"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" >
+
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" >
+
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" >
+
+
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

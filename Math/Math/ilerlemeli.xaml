@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Math.ilerlemeli">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="#049CFF">
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+                <Button x:Name="btnToplama" Text="Toplama İşlemİ" Clicked="btnToplama_Clicked"  BackgroundColor="Orange" FontSize="20"/>
+                <Button x:Name="btnCikarma" Text="Çıkarma İşlemİ" Clicked="btnCikarma_Clicked"  BackgroundColor="Orange" FontSize="20"/>
+                <Button  x:Name="btnCarpma" Text="Çarpma İşlemİ" Clicked="btnCarpma_Clicked"  BackgroundColor="Orange" FontSize="20"/>
+                <Button x:Name="btnBolme" Text="Bölme İşlemİ" Clicked="btnBolme_Clicked"  BackgroundColor="Orange" FontSize="20"/>
+                <Button x:Name="btnKarisik" Text="Karışık İşlemler" Clicked="btnKarisik_Clicked"  BackgroundColor="Orange" FontSize="20"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
